@@ -1,0 +1,239 @@
+
+
+* {
+  margin: 0;
+}
+.header {
+  width: 100%;
+  height: 80px;
+  background: linear-gradient(to bottom right, darkblue, #703ddf);
+}
+.header > .logo {
+  width: 20%;
+  margin-left: 10%;
+  float: left;
+}
+.logo > h2 {
+  color: white;
+  margin-top: 25px;
+  font-family: sans-serif;
+}
+.header > .link {
+  width: 50%;
+  float: right;
+  margin-left: 10%;
+  margin-top: 30px;
+}
+.header > .link > ul > li {
+  display: inline;
+  margin-right: 10px;
+}
+.link > ul > li > .link {
+  font-size: 15px;
+  color: rgb(189, 189, 189);
+  margin: 10px;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+.link ul li .link:hover{
+  color: rgb(235, 235, 235);
+}
+
+.applay_btn {
+  background-color: darkorange;
+  color: white ;
+  text-decoration: none;
+  font-family: sans-serif;
+  padding: 10px;
+  border-radius: 5px;
+}
+.applay_btn:hover{
+  background-color: rgb(253, 156, 38);
+}
+.cover {
+  width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: #703ddf;
+  height: 300px;
+  padding-top: 100px;
+}
+.cover > h1 {
+  color: white;
+  font-size: 80px;
+  font-weight: 100;
+  font-family: sans-serif;
+}
+.cover > p {
+  color: white;
+  width: 87%;
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+
+
+.course-name{
+  margin-top: 100px;
+  width: 82%;
+  padding-left: 8%;
+  padding-right: 10%;
+  
+}
+
+
+.course img{
+  height: 150px;
+  width: 100%;
+}
+.course {
+  width: 16%;
+  height: auto;
+  margin-bottom: 30px;
+  border: 1px solid #ddd;
+  box-shadow: 4px 6px 10px rgb(192, 192, 192);
+  float: left;
+  margin: 1%;
+}
+.course > .card-footer {
+  background-color: rgb(237, 235, 235);
+  margin-top: 40px;
+  font-family: sans-serif;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 5px;
+}
+.course > .card-footer1 {
+  background-color: rgb(237, 235, 235);
+  margin-top: 25px;
+  padding: 5px;
+  font-family: sans-serif;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+}
+.course > h5 {
+  font-family: sans-serif;
+  font-size: 13px;
+  text-align: center;
+  padding: 10px;
+}
+.course-name h4{
+  border-left: 4px solid gray;
+   padding-left: 10px;
+   margin-left: 1%;
+   font-size: 20px;
+   color: rgb(48, 47, 47);
+   font-weight: 500;
+   font-family: sans-serif;
+   margin-bottom: 20px;
+}
+.student{
+  clear:both;
+  width: 82%;
+  padding-left: 8%;
+  padding-top: 4%;
+  /* padding-right: 10%; */
+  
+}
+.student h4{
+  
+  border-left: 4px solid gray;
+   padding-left: 10px;
+   margin-left: 1%;
+   color: rgb(48, 47, 47);
+   font-weight:500;
+   font-size: 20px;
+   font-family: sans-serif;
+   margin-bottom: 20px;
+   clear: both;
+   
+}
+.card {
+  width: 16%;
+  height: 300px;
+  margin-bottom: 30px;
+  border: 1px solid #ddd;
+  box-shadow: 1px 1px 5px rgb(192, 192, 192);
+  float: left;
+  margin: 1%;
+}
+.card img{
+  height: 150px;
+  width: 100%;
+}
+.card h5{
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.card h6{
+   font-family: sans-serif;
+   text-align: center;
+   margin-top: 10px;
+   font-size: 12px;
+   color: grey;
+}
+.card small{
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 10px;
+  color: gray;
+  font-weight: lighter;
+  font-size: 10px;
+  
+}
+
+
+.footer-cover{
+  clear: both;
+  background-color: #10d0f2;
+  width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
+  height: 400px;
+ 
+}
+.brand{
+  margin-top: 12%;
+  font-family: sans-serif;
+  font-size: 16px;
+  float: left;
+  margin-right: 10%;
+  color: white;
+}
+.box{
+  margin-top: 5%;
+ margin-right: 5%;
+  width: 15%;
+  float: left;
+}
+.box2{
+  margin-right: 5%;
+  margin-top: 4%;
+
+  width: 25%;
+  float: left;
+}
+.links li, .links li a{
+  list-style: none;
+  margin-top:  7%;
+  color: white;
+  font-family: sans-serif;
+
+}
+.links li h6,.links2 li h6{
+  font-size: 1.25rem;
+  font-weight: 500;
+} 
+.text h6{
+  clear: both;
+  text-align: center;
+  font-family: sans-serif;
+  color: white;
+}
